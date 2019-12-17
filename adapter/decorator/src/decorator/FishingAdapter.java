@@ -1,8 +1,8 @@
 package decorator;
 
-public class FishingAdapterIml implements RowingBoat{
+public class FishingAdapter implements RowingBoat{
 	private FishingBoat fishingBoat;
-	public FishingAdapterIml() {
+	public FishingAdapter() {
 		this.fishingBoat = new FishingBoat();
 	}
 	@Override
